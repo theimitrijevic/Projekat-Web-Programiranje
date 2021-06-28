@@ -5,7 +5,7 @@
     include_once("../controllers/booking_controller.php");
 ?>
 
-<div class="container my-4">
+<div id="booking" class="container my-4">
     <?php 
         echo isset($flash) ? $flash : "";
     ?>
