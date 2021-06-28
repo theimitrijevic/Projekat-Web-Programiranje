@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.welcome{
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.text{
+    padding: 50px 40px 0 40px;
+    max-width: 500px;
+    color: white;
+    text-align: center;
+}
+
+.text h1{
+    font-size: 3.3em;
+}
+
+.text p{
+    font-size: 1.4em;
+}
+
+.scroll{
+    font-size: 2.3em;
+    padding: 20px 0;
+    animation: scroll 1.5s infinite;
+}
+
+@keyframes scroll {
+    0%      { opacity: 1; }
+    50%     { opacity: 0; }
+    100%    { opacity: 1; }
+}
+
+.footer{
+    color: white;
+    background: #1476b5;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.footer h3{
+    color: black;
+}
+
+.footer-copy{
+    background: #1476b5;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+}
+
+.footer-copy a{
+    color: #fff;
+}
+
+#about{
+    padding: 20px 0;
+}
+
+#sidebar{
+    height: 100vh;
+}
